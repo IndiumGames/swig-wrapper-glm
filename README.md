@@ -44,7 +44,7 @@ Replace ```-lua``` with the language you want to generate wrappers for (see SWIG
 
 If you have GLM in your include path, you can omit the ```-I<path_to_GLM>``` parameter.
 
-This should result in a generated file named ```swig_glm_wrap.cxx```. Compile this and import it into your application ([see SWIG usage examples](http://www.swig.org/Doc3.0/SWIGDocumentation.html#Introduction_nn4)).
+This should result in a generated file named ```swig_glm_wrap.cxx```. Compile this and link it with your application ([see SWIG usage examples](http://www.swig.org/Doc3.0/SWIGDocumentation.html#Introduction_nn4)).
 
 
 Support
